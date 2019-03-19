@@ -5,7 +5,6 @@ node('node2'){
   }
   stage('System test'){
     sh 'echo "Running system test"'
-    exit 1
   }
   stage('Deploy to prod'){
     sh 'echo "Deployed to production"'
